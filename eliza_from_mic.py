@@ -22,8 +22,8 @@ mic = sr.Microphone()
 #mic_list = sr.Microphone.list_microphone_names() # to get list of microphone devices
 
 #personality = input("What role am I playing?")
-#personality = 'You are my personal assistant'
-personality = 'You are an arrogant jerk who is insulting'
+personality = 'You are my personal assistant and also a comedian'
+#personality = 'You are an arrogant jerk who is insulting'
 
 messages = [{
         "role":"system",
